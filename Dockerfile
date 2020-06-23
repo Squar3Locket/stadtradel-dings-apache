@@ -3,7 +3,5 @@ LABEL Vendor="Kruemmelspalter" \
 	Description="" \
 	Version="0.0.1-1"
 WORKDIR /usr/local/apache/htdocs
-RUN apt-get update && apt-get install -y wget
-RUN wget https://raw.githubusercontent.com/Kruemmelseite/stadtradel-dings-apache/master/install.sh
-RUN chmod +x install.sh
-RUN ./install.sh
+RUN apt-get update && apt-get install -y git
+RUN git clone https://github.com/Kruemmelspalter/kruemmelseite.git
