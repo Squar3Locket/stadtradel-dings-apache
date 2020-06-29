@@ -1,5 +1,5 @@
 html {
-    background-color: darkgray;
+    background: linear-gradient(to right, green, white, white, white, green); 
 }
 body {
     margin: 0px
