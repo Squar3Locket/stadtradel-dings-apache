@@ -8,14 +8,14 @@ body {
 #title {
     width: 80%;
     height: 20%;
-    background-color: lightgrey;
+    background-color: #00bcd4;
     text-align: center;
     font-size: 17.5vh;
 }
 
 #login {
     float: right;
-    background-color: lightgray;
+    background-color: #00bcd4;
     width: 20%;
     height: 20%;
     /*text-align: left;*/
